@@ -31,4 +31,6 @@ export async function humorExistenceValidation(req: Request, res: Response, next
         return res.status(500).send({message: error.message});
     }
 
+    next();
+    
 }
