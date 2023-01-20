@@ -1,0 +1,1 @@
+import { humorAnalysisPost } from "../schemas/humor-schema.js";
