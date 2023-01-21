@@ -3,7 +3,7 @@ export type humorAnalysis = {
     date: string,
     hour: string,
     mood: string,
-    activities?: string
+    activities: string
 };
 
 export type humorPost = Omit<humorAnalysis, "id">;
