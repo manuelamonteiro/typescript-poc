@@ -4,7 +4,7 @@ Application to record your mood and activities.
 
 ## How to run for development
 
-1. Clone this repository
+1. Clone this repository.
 
 2. Install all dependencies:
 
@@ -12,7 +12,7 @@ Application to record your mood and activities.
 npm i
 ```
 
-3. Configure the `.env` file using the `.env.example` file
+3. Configure the `.env` file using the `.env.example` file.
 
 4. Run the back-end in a development environment:
 
@@ -49,6 +49,12 @@ Body:
     "mood": "bem",
     "activities": "almoço com amigos"
 }
+```
+
+The registration of activities is optional, but it's necessary to post:
+
+```bash
+    "activities": ""
 ```
 
 - **PUT**/humor/:id
