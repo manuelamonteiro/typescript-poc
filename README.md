@@ -51,12 +51,6 @@ Body:
 }
 ```
 
-The registration of activities is optional, but it's necessary to post:
-
-```bash
-    "activities": ""
-```
-
 - **PUT**/humor/:id
 
 Update your record.
