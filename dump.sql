@@ -64,15 +64,15 @@ ALTER TABLE ONLY public.humor ALTER COLUMN id SET DEFAULT nextval('public.humor_
 -- Data for Name: humor; Type: TABLE DATA; Schema: public; Owner: -
 --
 
-INSERT INTO public.humor VALUES (2, '20/01/2022', 'bem', 'resolvi meu bug', '20:54');
-INSERT INTO public.humor VALUES (3, '20/01/2022', 'bem', '', '20:54');
+INSERT INTO public.humor VALUES (3, '20/01/2022', 'bem', 'criei os services do projeto', '20:54');
+INSERT INTO public.humor VALUES (5, '25/01/2022', 'mais ou menos', 'estudos', '18:03');
 
 
 --
 -- Name: humor_id_seq; Type: SEQUENCE SET; Schema: public; Owner: -
 --
 
-SELECT pg_catalog.setval('public.humor_id_seq', 3, true);
+SELECT pg_catalog.setval('public.humor_id_seq', 5, true);
 
 
 --
