@@ -40,6 +40,8 @@ Response:
 
 - **POST**/humor
 
+Post your record.
+
 Body: 
 
 ```bash
