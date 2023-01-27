@@ -40,6 +40,8 @@ Response:
 
 - **POST**/humor
 
+Post your record.
+
 Body: 
 
 ```bash
@@ -49,12 +51,6 @@ Body:
     "mood": "bem",
     "activities": "almoço com amigos"
 }
-```
-
-The registration of activities is optional, but it's necessary to post:
-
-```bash
-    "activities": ""
 ```
 
 - **PUT**/humor/:id
